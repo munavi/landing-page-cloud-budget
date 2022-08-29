@@ -1,3 +1,3 @@
-# Mock Up
+# Landing Page Cloud Budget
 
-## This project illustrates a template with some settings and extensions
+## This project illustrates a landing page for online store
