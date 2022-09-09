@@ -6,7 +6,7 @@
 // Connection of fonts ===========================================================================================================================================================================================================================================================================
 //&display=swap - Add when connected via plugin
 //&subset=cyrillic-ext
-@import url(https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap);
 
 // Connect if there are local font files
 @import "fonts/fonts";
@@ -20,11 +20,11 @@
 // ============================================================================================================================================================================================================================================================================================================================================================================================
 
 // Default font ==============================================================================================================================================================================================================================================================================
-$fontFamily: "Heebo";
+$fontFamily: "Lato";
 $fontSize: rem(16); // where 14(px) - default font size from the layout
 
 // Primary colors
-$mainColor: #21243D; // Default font color
+$mainColor: #000000; // Default font color
 
 // Adaptive grid settings ===============================================================================================================================================================================================================================================================================================
 
@@ -33,7 +33,7 @@ $minWidth: 320;
 // The width of the canvas (layout)
 $maxWidth: 1920;
 // The width of the limiting container (0 = no restriction)
-$maxWidthContainer: 856;
+$maxWidthContainer: 1145;
 // General indenter 
 // (30 = 15px on the left and right, 0 = there is no retreat)
 $containerPadding: 30;
@@ -133,6 +133,7 @@ Snippet (HTML): cnt
 		}
 	}
 }
+
 
 // Connecting basic styles, templates (blanks) and auxiliary classes
 // For connection/disconnecting specific styles, see base.scss
