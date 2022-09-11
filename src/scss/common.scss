@@ -20,4 +20,32 @@
 			object-fit: cover;
 		}
 	}
+		&__container {
+		}
+		&__block {
+			position: absolute;
+			top: 250px;
+			left:370px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+		}
+}
+.block {
+		&__title {
+			color: #FFFFFF;
+			text-transform: uppercase;
+			font-size: 72px;
+			margin-bottom: 55px;;
+		}
+		&__description {
+			color: #FFFFFF;
+			font-size: 24px;
+			margin-bottom: 60px;
+		}
+		&__button {
+			color: #FFFFFF;
+			font-size: 24px;
+		}
 }
