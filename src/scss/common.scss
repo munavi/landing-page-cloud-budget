@@ -24,12 +24,24 @@
 		position: absolute;
 		top: 250px;
 		width:100%;
+		height: 350px;
+	}
+	&__container{
 		&__block {
 			min-height: 350px;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			justify-content: space-between;
+			.btn {
+				color: #ED4C5C;
+				background-color: #FFFFFF;
+				border: 1px solid #FFFFFF;
+				width: 160px;
+				height: 50px;
+				border-radius: 6px;
+				font-weight: 600;
+			}
 		}
 	}
 	
@@ -38,11 +50,15 @@
 		&__title {
 			color: #FFFFFF;
 			text-transform: uppercase;
+			font-weight: 700;
 			font-size: 72px;
 		}
 		&__description {
 			color: #FFFFFF;
 			font-size: 24px;
+			font-weight:500;
+			line-height: 36px;
+			text-align: center;
 		}
 		&__button {
 			color: #FFFFFF;
