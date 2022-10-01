@@ -1,20 +1,19 @@
 // Headlines, common BEM blocks and ease ...
 .page{
 	padding: 0px 0px 0px 0px;
-	flex: 1 1 auto;
 	@media (max-width:$pc){
 		padding: 0px 0px 0px 0px; 
 	}
 }
-.main-screen{
-	flex: 1 0 100%;
+.main-screen {
 	&__image {
-		// position: relative; 
-		img{
-			min-height: 100%;
+		position: relative;
+		height: 100vh;
+		width: 100vw;
+		img {
 			position: absolute;
-			width: 100%;
 			height: 100%;
+			width: 100%;
 			top: 0;
 			left: 0;
 			object-fit: cover;
@@ -22,12 +21,12 @@
 	}
 	&__column{
 		position: absolute;
-		top: 250px;
+		top:35vh;
 		width:100%;
 		height: 350px;
 	}
 	&__container{
-		&__block {
+		.block {
 			min-height: 350px;
 			display: flex;
 			flex-direction: column;
@@ -44,7 +43,6 @@
 			}
 		}
 	}
-	
 }
 .block {
 		&__title {
