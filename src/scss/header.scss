@@ -22,9 +22,6 @@
 		width: 100px;
 		height: 40px;
 		border-radius: 6px;
-		@media(max-width:$mobile){
-			// display: none;
-		}
 	}
 }
 .menu {
@@ -41,7 +38,7 @@
 			left: 0;
 			overflow: auto;
 			padding: 60px 10px 30px 10px;
-			background-color: #ED4C5C;
+			background-color: #ED4C5C; 
 			.menu-open & {
 				transform: translate(0px, 0%);
 			}
