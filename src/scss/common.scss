@@ -177,6 +177,70 @@
 		padding: 0px 40px;	
 	}
 }
+.technologies {
+	height: 500px;
+	&__block {
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		@media (max-width:$tablet){
+			display: flex;
+			align-items: flex-start;
+			overflow:auto;
+		}
+	}
+	&__content {
+		display:flex;
+		padding:60px 0 105px 0;
+	}
+	&__title{
+		padding-top: 60px;
+	}
+	&__card {
+		width: 255px;
+		height: 226px;
+	}
+	&__card-info {
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		height: 150px;
+		position: relative;
+		bottom:65px;
+		z-index: 2;
+	}
+	&__name{
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 22px;	
+		text-align: center;
+		padding: 0px 30px;
+	}
+	&__image {
+		min-width: 80px;
+		min-height: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__description {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 14px;
+		text-align: center;
+		padding: 0px 20px;	
+	}
+	&__number {
+		font-weight: 700;
+		font-size: 100px;
+		line-height: 120px;
+		text-align: center;
+		color: rgba(16, 16, 16, 0.08);
+	}
+}
+
 
 .title {
 	font-size: 36px;
