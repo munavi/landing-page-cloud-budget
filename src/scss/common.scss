@@ -298,6 +298,33 @@
 		align-items: center;
 	}
 }
+.contact {
+
+	&__block {
+		height: 545px;
+	}
+	&__content {
+		display:flex;
+	}
+	&__info {
+		margin-top:115px;
+		width: 445px;
+		height: 160px;
+	}
+	&__description {
+		margin-top:60px;
+		padding-right: 15px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 140%;
+		text-align: justify;
+	}
+	&__form {
+		width: 540px;
+		height: 305px;
+	}
+}
+
 
 .title {
 	font-size: 36px;
